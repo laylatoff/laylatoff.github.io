@@ -9,26 +9,20 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
-  {%- endif -%}
-
+  <div class="contents">
+    <table>
+      <tr>
+        <td><img class="preview" src="/assets/table1.png"></td>
+        <td><img class="preview" src="/assets/table4.png"></td>
+        <td><img class="preview" src="/assets/table2.png"></td>
+        <td><img class="preview" src="/assets/table3.png"></td>
+      </tr>
+      <tr>
+        <td><b>Была спроектирована зона отдыха с барбекю печью</b></td>
+        <td><b>Была спроектирована зона отдыха с большой беседкой</b></td>
+        <td><b>На территории находится аллея, которая требовала реставрации</b></td>
+        <td><b>Была спроектирована зона ожидания перед поликлиникой</b></td>
+      </tr>
+    </table>
+  </div>
 </div>
