@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    background-color: #87A57F;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    background-color: darkseagreen; 
+    background-image: url("/assets/intro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+h1 {
+    color: darkgreen;
+    font-size: 30pt;
+    text-align: center;
+    margin: 10pt;
+}
+
+h2 {
+    color: darkgreen;
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-align: center;
+    margin: 10pt;
+}
+
+.nav {
+    margin: 0 auto;
+    padding: 110px 0;
+}
+
+.nav td {
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    background: #C1CCB8;
+    
+}
+
+.nav td a {
+    color: darkgreen;
+    font-size: 15pt;
+    text-decoration: none;
+   margin: 100px 100px;
+}
+
+.nav td a:hover {
+    color: aliceblue;
+    text-decoration:inherit;
+}
+.contents {
+    /*display: flex;*/
+    margin: 2px 100px;
+    padding: 50px 0;
+    /*flex-direction: column;*/
+}
+
+.contents td {
+    color: darkgreen;
+    text-align: center;
+}
+
+.preview {
+    width: 250px;
+}
+
+footer {
+    bottom: 0px;
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+footer table tr td {
+    width: 33%;
+}
+
+.address {
+    color: darkgreen;
+    font-family: sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    border: 2px solid #C1CCB8;
+    margin: 10pt 470px;
+    
+}
+
+.address:hover {
+    background: #C1CCB8;
+}
+
