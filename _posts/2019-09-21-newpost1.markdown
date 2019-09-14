@@ -1,0 +1,8 @@
+---
+layout: post
+title:  Example of post01
+date:   2019-09-21 21:27:10
+categories: posts
+---
+Another one example of posts
+
